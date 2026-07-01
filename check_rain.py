@@ -22,7 +22,7 @@ from twilio.rest import Client
 LATITUDE = 33.7090
 LONGITUDE = -117.7590
 LOCATION_LABEL = "92620 (Irvine, CA)"
-RAIN_THRESHOLD = -1  # TEMP: forcing SMS test
+RAIN_THRESHOLD = 15  # percent
 
 OPEN_METEO_URL = (
     "https://api.open-meteo.com/v1/forecast"
