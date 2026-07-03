@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at the top of every hour (UTC). GitHub Actions schedules can be
     # delayed a few minutes during high load, but it's reliably ~hourly.
-    - cron: "0 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch: {}  # lets you manually trigger a run from the Actions tab
 
 jobs:
