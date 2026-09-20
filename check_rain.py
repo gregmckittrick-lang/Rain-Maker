@@ -36,7 +36,7 @@ from twilio.rest import Client
 LATITUDE = 33.7090
 LONGITUDE = -117.7590
 LOCATION_LABEL = "92620 (Irvine, CA)"
-RAIN_THRESHOLD = 8  # percent
+RAIN_THRESHOLD = 0  # percent
  
 # NWS requires a descriptive User-Agent identifying the app (no key needed).
 NWS_HEADERS = {
